@@ -1,0 +1,89 @@
+
+body {
+  background-color: #e0c3fc;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #7778d3;
+  font-size: 24px;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+
+/* Links */
+a {
+  color: #515482;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ef7a85;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lavender-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  color: #333; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.lavender-button:hover {
+  background-color: #ddd; /* Lighter lavender on hover */
+}
+
+ul, ol {
+  margin: 0; /* Eliminar el margen exterior */
+  padding: 0; /* Eliminar el relleno */
+}
+
+li {
+  margin: 0; /* Eliminar el margen */
+  padding: 0; /* Eliminar el relleno */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
